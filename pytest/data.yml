@@ -1,0 +1,5 @@
+---
+# 用户请求为空
+url: http://127.0.0.1:5000/login
+body: {"password":"admin","sex":"男","age":18}
+expect: {"message":{"username":"用户名不能为空"}}
